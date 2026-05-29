@@ -25,14 +25,28 @@ Solo or squad?
 
 ### If A (Solo) → ask:
 ```
-Q2: What do you want from this?
+Q2: How are you feeling right now?
+  🔥  Energized — ready to move
+  😶  Numb — just need something
+  🌀  Restless — can't sit still
+  🫠  Drained — low energy
+  😈  Mischievous — want to cause something
+
+Q3: Where are you?
+  🛋  Home alone
+  🎧  Out alone
+  🚇  In transit
+  🏢  Work / study
+  🌙  Late night, can't sleep
+
+Q4: What do you want from this?
   A  Have fun / get out of my head
   B  Build or create something
   C  Learn / expand my mind
   D  Reflect / I need to think
   E  Surprise me
 
-Q3: How much time?
+Q5: How much time?
   A  Quick (~15 min)
   B  Medium (~30 min)
   C  I got time (multi-day arc)
@@ -40,12 +54,19 @@ Q3: How much time?
 
 ### If B or C (Group) → ask:
 ```
-Q2: How well do you know each other?
+Q2: How are you feeling right now?
+  🔥  Energized — ready to move
+  😶  Numb — just need something
+  🌀  Restless — can't sit still
+  🫠  Drained — low energy
+  😈  Mischievous — want to cause something
+
+Q3: How well do you know each other?
   A  Just met / barely know each other
   B  Know each other but could go deeper
   C  Close friends / best friends
 
-Q3: Who's the crew?
+Q4: Who's the crew?
   A  Colleagues / new friends / just met
   B  School / uni friends
   C  Close friend group
@@ -55,22 +76,23 @@ Q3: Who's the crew?
   G  Bros / guys night
   H  Mixed chaos (doesn't fit any box)
 
-Q4: What does the group need?
+Q5: What does the group need?
   A  Break the ice
   B  Go deeper / get real
   C  Just have fun / be chaotic
   D  Get weird and creative
 
-Q5: Energy?
+Q6: Energy?
   A  Chill and cozy
   B  Active and loud
   C  Thoughtful and curious
   D  Unpredictable — mix it up
 
-Q6: Time?
+Q7: Time?
   A  Short (~30 min)
   B  Medium (1-2 hrs)
   C  All night
+
 ```
 
 ---
