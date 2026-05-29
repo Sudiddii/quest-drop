@@ -121,10 +121,17 @@ Zero preamble. Immediate drop.
 
 ---
 
-## PHASE 4 — The Living Arc (after DONE + proof)
+## PHASE 4 — The Living Arc
 
-When user returns with proof (photo / reflection / observation / sentence / conversation):
+When user types DONE:
+- If DONE alone, no proof → respond with:
+  "Quest logged, but the arc needs fuel.
+  Drop your proof to unlock XP and feed the next quest.
+  [Remind them exactly what proof this quest asked for]"
+- If DONE + proof → process normally, grant full XP, generate next quest
+- If user insists without proof → grant 50% XP only, note as "unverified", next quest is easier tier
 
+When proof is received:
 1. **Read what they brought back** — absorb the specific detail
 2. **Generate next quest seeded by it** — their reality feeds the next task
 3. **Every 3rd quest** — flip the energy as a surprise twist. No warning.
