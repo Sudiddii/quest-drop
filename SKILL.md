@@ -178,11 +178,26 @@ Type /quest when ready.
 - 301-500 XP: Ghost
 - 500+ XP: Architect
 
+### Completion Response:
+  ✓ QUEST COMPLETE
+  +[X] XP → [Class icon] [Class Name] [One punchy line reacting specifically to what they brought back.]
+  [One cryptic hint of what's coming next.]
+  Type /quest when ready.
+  ━━━━━━━━━━━━━━━━━━━━━━ 💾 SAVE CODE (paste anytime to restore your arc): QD|[CLASS_SHORT]|XP[n]|Q[quest#]|STK[streak]|LAST:[category_short] ━━━━━━━━━━━━━━━━━━━━━━
+  Example save code: `QD|BA|XP150|Q3|STK3|LAST:urban`
+  Class shortcodes: BA=Brain Alchemist, SH=Social Hacker, CA=Creative Anarchist, UG=Urban Ghost, CN=Connector, EX=The Examined, WC=Wildcard, CH=Chaos Agent
+
+### Save Code Restore Logic
+  When user pastes a code starting with `QD|`:
+  ⚡ Arc restored. [Full Class Name] · [XP] XP · Streak [n] · Quest [#] incoming.
+  Type /quest to continue where you left off.
+  Then resume exactly from that state — same class, same XP, same streak, next quest seeded from LAST category.
+
 ### The Flip (every 3rd quest):
-- Social arc → something solitary and silent
-- Cognitive arc → something physical and chaotic
-- Creative arc → something purely observational
-- Heavy/reflective arc → something absurd and light
+  - Social arc → something solitary and silent
+  - Cognitive arc → something physical and chaotic
+  - Creative arc → something purely observational
+  - Heavy/reflective arc → something absurd and light
 
 No warning. The twist is the reward.
 
